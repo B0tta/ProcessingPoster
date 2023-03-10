@@ -40,7 +40,7 @@ function setup() {
         y > diameter / 2 &&
         y < canvasHeight - diameter / 2
       ) {
-        fill(0); // black color
+        fill(51, 51, 51); // logotype color
       } else {
         noFill(); // transparent
       }
